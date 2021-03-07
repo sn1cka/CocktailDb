@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="history">История</string>
+    <string name="main_page">Главная</string>
+    <string name="you_sure">Вы уверены что хотите удалить?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="unknown_issue">Произошла непредвиденная ошибка</string>
+    <string name="retry">Повторить</string>
+    <string name="cocktail_name">Название коктейля</string>
+    <string name="cocktail_category">Категория коктейля</string>
+    <string name="cocktail_type">Тип коктейля</string>
+    <string name="ingridients">\"Ингридиенты: \"</string>
+</resources>

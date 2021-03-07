@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    android:fitsSystemWindows="false"
+    android:background="@drawable/rounded_bg_12dp"
+    android:backgroundTint="@color/bgPrimary"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/cocktailName"
+        android:layout_marginStart="20dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textSize="18sp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="1"
+        android:text="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/deleteCocktail"
+        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_baseline_delete_outline_24" />
+
+
+</LinearLayout>
